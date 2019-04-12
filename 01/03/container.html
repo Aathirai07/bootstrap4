@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Revalia" rel="stylesheet">
+  <style>
+ .green{
+    background-color:red;
+    height:80vh;
+  }
+  /*xs*/
+    @media (max-width:575px){
+      .green{
+        background-color:green;
+        height:80vh;
+      }
+    }
+    /*sm*/
+    @media (min-width:576px)and (max-width:767px){
+      .green{
+         background-color:blue;
+         height:80vh;
+       }
+    }
+/*md*/
+    @media (min-width:768px)and (max-width:991px){
+      .green{
+         background-color:black;
+         height:80vh;
+       }
+    }
+/*lg*/
+    @media (min-width:992px)and (max-width:1199px){
+      .green{
+         background-color:orange;
+         height:80vh;
+       }
+    }
+/*xl*/
+    @media (min-width:1200px){
+      .green{
+         background-color:pink;
+         height:80vh;
+       }
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid green">
+    aaa
+  </div>
+</body>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><!--content delivery network-CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js"></script>
+</html>
